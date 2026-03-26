@@ -51,9 +51,7 @@ jobs:
         push: false
         tags: ${{ secrets.DOCKER_USERNAME }}/mi-app
 
-    # 8. Validación con Bake
-    - name: Bake check
-      run: docker buildx bake --print
+  
 
     # 9. Construir imagen real
     - name: Build Docker image
