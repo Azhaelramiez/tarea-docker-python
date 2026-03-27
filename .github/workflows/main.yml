@@ -55,6 +55,6 @@ jobs:
     - name: Docker Bake Validation
       uses: docker/bake-action@v6
       with:
-        files: ./Dockerfile.hcl
+        files: docker-bake.hcl
         targets: validate
         push: false
