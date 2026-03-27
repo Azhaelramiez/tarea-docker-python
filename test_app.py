@@ -1,12 +1,8 @@
-
 import unittest
+import app  # Esto ya lo tienes
 
 class TestApp(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(1, 1)
-
-def test_suma():
-    assert 2 + 2 == 4
-
-def test_string():
-    assert "docker".upper() == "DOCKER"
+    def test_app_logic(self):
+        # LLAMA a la función de tu app aquí:
+        resultado = app.hola_mundo() 
+        self.assertEqual(resultado, "Esperado")
