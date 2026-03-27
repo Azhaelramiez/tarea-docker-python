@@ -2,8 +2,9 @@ print("Hola, Docker funciona!")
 
 print("Hola mundo")
 
-print("ariel")
+print("ariel2")
 
 print ("prueba")
 
 print ("astrid")
+
