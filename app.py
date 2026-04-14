@@ -6,4 +6,3 @@ print("ariel2")
 
 print ("prueba")
 
-print ("astrid")
