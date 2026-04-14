@@ -6,3 +6,5 @@ print("ariel2")
 
 print ("prueba")
 
+print ("amigo")
+
